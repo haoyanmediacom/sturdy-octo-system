@@ -2,1238 +2,772 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>衡阳灏妍时代互动文化传媒有限公司 - 短视频|短剧|新媒体代运营|品牌全案</title>
-<meta name="keywords" content="衡阳传媒公司,灏妍时代,短视频拍摄,短剧制作,新媒体代运营,品牌全案,活动策划,企业宣传片,直播电商">
-<meta name="description" content="衡阳灏妍时代互动文化传媒有限公司，是衡阳本土专业的互联网型传媒机构，深耕短视频、短剧创作、新媒体代运营、品牌全案策划、活动执行、企业宣传片拍摄、直播电商等领域，为品牌与达人提供一站式传媒解决方案。">
-<link rel="shortcut icon" href="https://picsum.photos/32/32">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>衡阳灏妍时代互动文化传媒有限公司</title>
+<meta name="keywords" content="灏妍时代,衡阳传媒公司,互动传媒,艺人经纪,品牌营销,新媒体运营,影视短剧,活动策划,MCN机构">
+<meta name="description" content="衡阳灏妍时代互动文化传媒有限公司是一家深耕于互动传媒与艺人经纪领域的专业机构，依托全域传播与内容生态，构建“内容创作+品牌营销+艺人经纪+活动执行”的一体化服务体系，2026年新锐区域头部MCN机构。">
 <style>
-/* 全局重置与基础样式 */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
-}
-html {
-    scroll-behavior: smooth;
-}
-body {
-    color: #333;
-    line-height: 1.8;
-    background: #fff;
-    overflow-x: hidden;
-}
-.container {
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-    transition: all 0.3s ease;
-}
-ul {
-    list-style: none;
-}
-img {
-    max-width: 100%;
-    display: block;
-}
-.btn {
-    display: inline-block;
-    padding: 12px 38px;
-    background: #0099ff;
-    color: #fff;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.btn:hover {
-    background: #007acc;
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0,153,255,0.3);
-}
-.btn-outline {
-    background: transparent;
-    border: 2px solid #0099ff;
-    color: #0099ff;
-}
-.btn-outline:hover {
-    background: #0099ff;
-    color: #fff;
-}
-.section {
-    padding: 70px 0;
-}
-.section-title {
-    text-align: center;
-    margin-bottom: 50px;
-}
-.section-title h2 {
-    font-size: 38px;
-    font-weight: 700;
-    color: #222;
-    margin-bottom: 15px;
-    position: relative;
-    display: inline-block;
-}
-.section-title h2::after {
-    content: '';
-    width: 80px;
-    height: 4px;
-    background: #0099ff;
-    position: absolute;
-    left: 50%;
-    bottom: -15px;
-    transform: translateX(-50%);
-    border-radius: 2px;
-}
-.section-title p {
-    font-size: 17px;
-    color: #666;
-    max-width: 700px;
-    margin: 30px auto 0;
-}
-.fade-in {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s ease;
-}
-.fade-in.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-/* 顶部天气时间栏 */
-.top-bar {
-    background: #0099ff;
-    color: #fff;
-    padding: 8px 0;
-    font-size: 14px;
-}
-.top-bar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/* 导航栏 */
-.header {
-    position: sticky;
-    top: 34px;
-    z-index: 999;
-    background: rgba(26,26,26,0.95);
-    backdrop-filter: blur(10px);
-    padding: 15px 0;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
-}
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.brand {
-    font-size: 24px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
-}
-.nav-list {
-    display: flex;
-    gap: 35px;
-    align-items: center;
-}
-.nav-list a {
-    color: #eee;
-    font-size: 15px;
-    font-weight: 500;
-    position: relative;
-}
-.nav-list a::after {
-    content: '';
-    width: 0;
-    height: 2px;
-    background: #0099ff;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: all 0.3s ease;
-}
-.nav-list a:hover {
-    color: #0099ff;
-}
-.nav-list a:hover::after {
-    width: 100%;
-}
-/* 首屏KV */
-.banner {
-    width: 100%;
-    height: 90vh;
-    min-height: 650px;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(https://picsum.photos/id/1033/1920/1080);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    padding: 0 20px;
-    margin-top: -90px;
-}
-.banner-content h1 {
-    font-size: 56px;
-    font-weight: 700;
-    margin-bottom: 25px;
-    line-height: 1.2;
-}
-.banner-content p {
-    font-size: 20px;
-    max-width: 850px;
-    margin: 0 auto 40px;
-    color: #e0e0e0;
-}
-.banner-btn-group {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-/* 核心数据板块 */
-.data-panel {
-    background: #f8f9fa;
-    padding: 50px 0;
-}
-.data-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    text-align: center;
-}
-.data-item {
-    background: #fff;
-    padding: 30px 20px;
-    border-radius: 12px;
-    box-shadow: 0 3px 15px rgba(0,0,0,0.05);
-}
-.data-item h3 {
-    font-size: 42px;
-    font-weight: 700;
-    color: #0099ff;
-    margin-bottom: 8px;
-}
-.data-item p {
-    font-size: 17px;
-    color: #333;
-    font-weight: 500;
-}
-/* 关于我们板块 */
-.about {
-    background: #fff;
-}
-.about-wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    align-items: center;
-}
-.about-text h3 {
-    font-size: 34px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #222;
-}
-.about-text p {
-    font-size: 16px;
-    color: #444;
-    margin-bottom: 18px;
-    line-height: 1.9;
-}
-.about-img img {
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-}
-/* 核心业务板块 */
-.service {
-    background: #f8f9fa;
-}
-.service-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-}
-.service-item {
-    background: #fff;
-    padding: 40px 30px;
-    border-radius: 15px;
-    transition: all 0.3s ease;
-}
-.service-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(0,153,255,0.15);
-}
-.service-icon {
-    width: 70px;
-    height: 70px;
-    background: #0099ff;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.service-item h3 {
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    color: #222;
-}
-.service-item p {
-    font-size: 15px;
-    color: #666;
-    line-height: 1.8;
-}
-/* 服务优势板块 */
-.advantage {
-    background: #fff;
-}
-.adv-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-}
-.adv-item {
-    text-align: center;
-    padding: 35px 20px;
-    border-radius: 15px;
-    background: #f8f9fa;
-    transition: all 0.3s ease;
-    box-shadow: 0 3px 15px rgba(0,0,0,0.05);
-}
-.adv-item:hover {
-    background: #0099ff;
-    color: #fff;
-    transform: translateY(-5px);
-}
-.adv-item h3 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 12px;
-}
-.adv-item p {
-    font-size: 14px;
-    color: #666;
-    transition: all 0.3s ease;
-}
-.adv-item:hover p {
-    color: #eaeaea;
-}
-/* 成功案例板块 */
-.case {
-    background: #f8f9fa;
-}
-.case-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-.case-item {
-    border-radius: 15px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    transition: all 0.3s ease;
-}
-.case-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-}
-.case-item img {
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
-}
-.case-info {
-    padding: 25px;
-}
-.case-info h4 {
-    font-size: 19px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #222;
-}
-.case-info p {
-    color: #666;
-    font-size: 15px;
-}
-/* 新闻动态板块 */
-.news {
-    background: #fff;
-}
-.news-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-.news-item {
-    background: #f8f9fa;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
-    transition: all 0.3s ease;
-}
-.news-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-.news-item img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-}
-.news-info {
-    padding: 25px;
-}
-.news-date {
-    font-size: 14px;
-    color: #0099ff;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.news-info h4 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 12px;
-    color: #222;
-    line-height: 1.5;
-}
-.news-info p {
-    color: #666;
-    font-size: 14px;
-}
-/* 在线留言板块 */
-.quote {
-    background: #f8f9fa;
-}
-.quote-form {
-    max-width: 900px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 50px;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-}
-.form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    margin-bottom: 25px;
-}
-.form-group {
-    margin-bottom: 25px;
-}
-.form-group label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: 500;
-    color: #333;
-    font-size: 15px;
-}
-.form-control {
-    width: 100%;
-    padding: 14px 18px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    outline: none;
-    font-size: 15px;
-    transition: all 0.3s ease;
-}
-.form-control:focus {
-    border-color: #0099ff;
-    box-shadow: 0 0 0 3px rgba(0,153,255,0.1);
-}
-textarea.form-control {
-    min-height: 150px;
-    resize: vertical;
-}
-.submit-btn {
-    width: 100%;
-    padding: 15px;
-    font-size: 17px;
-    border-radius: 8px;
-}
-/* 联系我们板块 */
-.contact {
-    background: #1a1a1a;
-    color: #fff;
-    padding: 70px 0;
-}
-.contact .section-title h2,
-.contact .section-title p {
-    color: #fff;
-}
-.contact-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-}
-.contact-item {
-    background: rgba(255,255,255,0.05);
-    padding: 30px;
-    border-radius: 15px;
-    transition: all 0.3s ease;
-    text-align: center;
-}
-.contact-item:hover {
-    background: rgba(0,153,255,0.1);
-    transform: translateY(-5px);
-}
-.contact-item h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: #0099ff;
-}
-.contact-item p {
-    font-size: 15px;
-    color: #eee;
-    margin-bottom: 8px;
-    line-height: 1.9;
-}
-.contact-item a:hover {
-    color: #0099ff;
-}
-/* 页脚 */
-.footer {
-    background: #000;
-    color: #999;
-    padding: 40px 0 20px;
-}
-.footer-top {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-bottom: 30px;
-}
-.footer-brand {
-    max-width: 400px;
-}
-.footer-brand h3 {
-    font-size: 24px;
-    color: #fff;
-    margin-bottom: 15px;
-}
-.footer-brand p {
-    font-size: 14px;
-    line-height: 1.8;
-}
-.footer-nav {
-    display: flex;
-    gap: 60px;
-}
-.footer-nav h4 {
-    color: #fff;
-    margin-bottom: 15px;
-    font-size: 16px;
-}
-.footer-nav ul li {
-    margin-bottom: 8px;
-    font-size: 14px;
-}
-.footer-nav ul li a:hover {
-    color: #0099ff;
-}
-.copyright {
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    font-size: 14px;
-}
-/* 在线客服悬浮窗 */
-.online-service {
-    position: fixed;
-    right: 30px;
-    bottom: 40px;
-    z-index: 998;
-}
-.service-btn {
-    width: 70px;
-    height: 70px;
-    background: #0099ff;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 5px 20px rgba(0,153,255,0.4);
-    transition: all 0.3s ease;
-}
-.service-btn:hover {
-    transform: scale(1.05);
-}
-.service-window {
-    position: absolute;
-    bottom: 85px;
-    right: 0;
-    width: 350px;
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
-    display: none;
-    overflow: hidden;
-}
-.service-header {
-    background: #0099ff;
-    color: #fff;
-    padding: 18px 20px;
-    font-weight: 600;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.service-close {
-    cursor: pointer;
-    font-size: 20px;
-}
-.service-body {
-    padding: 25px;
-    color: #333;
-}
-.service-body p {
-    margin-bottom: 15px;
-    line-height: 1.8;
-}
-/* 管理后台样式 */
-#admin {
-    display: none;
-    background: #f5f7fa;
-    min-height: 100vh;
-}
-.admin-header {
-    background: #1a1a1a;
-    color: #fff;
-    padding: 18px 0;
-}
-.admin-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.admin-title {
-    font-size: 20px;
-    font-weight: 600;
-}
-.logout-btn {
-    background: #ff4d4f;
-    padding: 8px 20px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.logout-btn:hover {
-    background: #d9363e;
-}
-.admin-body {
-    display: flex;
-    min-height: calc(100vh - 66px);
-}
-.admin-sidebar {
-    width: 240px;
-    background: #2a2a2a;
-    color: #fff;
-    padding: 30px 0;
-}
-.sidebar-menu li {
-    padding: 15px 30px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-size: 15px;
-}
-.sidebar-menu li.active,
-.sidebar-menu li:hover {
-    background: #0099ff;
-}
-.admin-content {
-    flex: 1;
-    padding: 30px;
-}
-.admin-panel {
-    display: none;
-    background: #fff;
-    padding: 35px;
-    border-radius: 10px;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
-    min-height: 500px;
-}
-.admin-panel.active {
-    display: block;
-}
-.panel-title {
-    font-size: 26px;
-    margin-bottom: 25px;
-    color: #222;
-}
-/* 后台统计卡片 */
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    margin-bottom: 30px;
-}
-.stats-item {
-    background: #f8f9fa;
-    padding: 25px 20px;
-    border-radius: 10px;
-    border-left: 4px solid #0099ff;
-}
-.stats-item h4 {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 10px;
-    font-weight: 500;
-}
-.stats-item p {
-    font-size: 28px;
-    font-weight: 700;
-    color: #222;
-}
-.admin-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-.admin-table th,
-.admin-table td {
-    padding: 14px 16px;
-    border: 1px solid #eee;
-    text-align: left;
-    font-size: 14px;
-}
-.admin-table th {
-    background: #f8f9fa;
-    font-weight: 600;
-    color: #333;
-}
-.operate-btn {
-    display: flex;
-    gap: 8px;
-}
-.del-btn {
-    background: #ff4d4f;
-    color: #fff;
-    border: none;
-    padding: 5px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 13px;
-}
-.edit-btn {
-    background: #0099ff;
-    color: #fff;
-    border: none;
-    padding: 5px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 13px;
-}
-.add-btn {
-    background: #0099ff;
-    color: #fff;
-    border: none;
-    padding: 10px 22px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-.form-modal {
-    margin-bottom: 25px;
-    padding: 25px;
-    border: 1px solid #eee;
-    border-radius: 10px;
-    background: #f8f9fa;
-}
-.empty-tip {
-    text-align: center;
-    padding: 50px 0;
-    color: #999;
-    font-size: 16px;
-}
-/* 响应式适配 */
-@media (max-width: 1200px) {
-    .data-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .adv-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .contact-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (max-width: 992px) {
-    .service-grid,
-    .case-grid,
-    .news-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .about-wrap {
-        grid-template-columns: 1fr;
-    }
-    .banner-content h1 {
-        font-size: 45px;
-    }
-    .section-title h2 {
-        font-size: 32px;
-    }
-    .admin-body {
-        flex-direction: column;
-    }
-    .admin-sidebar {
-        width: 100%;
-        padding: 15px 0;
-    }
-    .sidebar-menu {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-@media (max-width: 768px) {
-    .top-bar .container {
-        flex-direction: column;
-        gap: 5px;
-    }
-    .header {
-        position: static;
-        margin-top: 0;
-    }
-    .nav {
-        flex-direction: column;
-        gap: 15px;
-    }
-    .nav-list {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 18px;
-    }
-    .banner {
-        height: auto;
-        min-height: 500px;
-        padding: 100px 20px;
-        margin-top: 0;
-    }
-    .banner-content h1 {
-        font-size: 32px;
-    }
-    .banner-btn-group {
-        flex-direction: column;
-        gap: 15px;
-    }
-    .data-grid,
-    .adv-grid,
-    .service-grid,
-    .case-grid,
-    .news-grid,
-    .contact-grid {
-        grid-template-columns: 1fr;
-    }
-    .form-row {
-        grid-template-columns: 1fr;
-    }
-    .section {
-        padding: 50px 0;
-    }
-    .section-title h2 {
-        font-size: 28px;
-    }
-    .quote-form {
-        padding: 30px 20px;
-    }
-    .footer-top {
-        flex-direction: column;
-    }
-    .footer-nav {
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-    .admin-content {
-        padding: 20px;
-    }
-    .admin-panel {
-        padding: 20px;
-    }
-    .service-window {
-        width: 280px;
-        right: -20px;
-    }
-    .stats-grid {
-        grid-template-columns: 1fr;
-    }
-    .about-img img {
-        height: 300px;
-    }
-}
+  *{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft YaHei",Arial,sans-serif}
+  html{scroll-behavior:smooth}
+  body{color:#333;background:#fff;line-height:1.6}
+  a{text-decoration:none;color:inherit}
+  ul{list-style:none}
+  img{max-width:100%;display:block}
+  .container{width:100%;max-width:1200px;margin:0 auto;padding:0 20px}
+  .btn{display:inline-block;padding:12px 30px;border-radius:4px;transition:.3s;font-weight:500;cursor:pointer;border:none}
+  .btn-primary{background:#0066CC;color:#fff}
+  .btn-primary:hover{background:#0052A3;transform:translateY(-2px)}
+  .btn-outline{background:transparent;border:1px solid #0066CC;color:#0066CC}
+  .btn-outline:hover{background:#0066CC;color:#fff}
+  .section{padding:80px 0}
+  .section-title{text-align:center;margin-bottom:60px}
+  .section-title h2{font-size:36px;font-weight:700;margin-bottom:15px;position:relative;display:inline-block}
+  .section-title h2::after{content:"";position:absolute;left:50%;bottom:-8px;width:60px;height:3px;background:#0066CC;transform:translateX(-50%)}
+  .section-title p{font-size:16px;color:#666;max-width:700px;margin:15px auto 0}
+
+  /* 顶部实时时间栏 */
+  .top-bar{background:#0066CC;color:#fff;padding:8px 0;font-size:14px}
+  .top-bar .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+
+  /* 导航栏 */
+  .header{position:sticky;top:0;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.08);z-index:999}
+  .nav-wrap{display:flex;align-items:center;justify-content:space-between;height:80px;flex-wrap:wrap}
+  .logo{font-size:22px;font-weight:700;color:#0066CC;white-space:nowrap}
+  .nav-list{display:flex;gap:25px;flex-wrap:wrap}
+  .nav-list a{font-size:15px;color:#333;transition:.3s;font-weight:500}
+  .nav-list a:hover{color:#0066CC}
+
+  /* 搜索栏 */
+  .search-box{display:flex;align-items:center;flex-shrink:0}
+  .search-box input{padding:8px 15px;border:1px solid #eee;border-radius:4px;outline:none;transition:.3s;width:180px}
+  .search-box input:focus{border-color:#0066CC}
+  .search-box button{padding:8px 15px;border:none;border-radius:4px;background:#0066CC;color:#fff;margin-left:8px;cursor:pointer;white-space:nowrap}
+
+  /* Banner - 自动随机无侵权图+加载兜底 */
+  .banner{
+    height:600px;
+    background:linear-gradient(135deg,rgba(0,102,204,0.85),rgba(0,74,153,0.85)), 
+    url("https://picsum.photos/1920x1080?random=1") center/cover no-repeat;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    position:relative;
+    transition:background 0.5s ease;
+    overflow:hidden;
+  }
+  .banner-content{max-width:900px;padding:0 20px;position:relative;z-index:2}
+  .banner h1{font-size:52px;margin-bottom:20px;line-height:1.2}
+  .banner p{font-size:20px;margin-bottom:40px;opacity:.9}
+  .banner-btn-group{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
+
+  /* 核心数据 - 2026年2月成立合规版 */
+  .data{background:#F8FAFC;padding:50px 0;margin-top:-50px;position:relative;z-index:10}
+  .data .container{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+  .data .item{background:#fff;padding:30px;border-radius:12px;box-shadow:0 3px 15px rgba(0,0,0,.05)}
+  .data .item h3{font-size:36px;color:#0066CC;margin-bottom:5px}
+  .data .item p{font-size:15px;color:#666}
+
+  /* 关于我们 - 完整指定简介一字不差 */
+  .about{background:#fff}
+  .about-wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+  .about-img{
+    width:100%;
+    height:450px;
+    border-radius:12px;
+    overflow:hidden;
+    position:relative;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+    transition:transform 0.5s ease;
+  }
+  .about-img:hover{transform:scale(1.02)}
+  .about-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+  .about-img:hover img{transform:scale(1.1)}
+  .about-content h3{font-size:28px;margin-bottom:20px;color:#333}
+  .about-content p{font-size:16px;color:#666;margin-bottom:15px;line-height:1.8;text-align:justify}
+  .about-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:30px 0}
+  .stat-item{text-align:center;padding:15px;background:#F8FAFC;border-radius:8px}
+  .stat-item h4{font-size:32px;color:#0066CC;margin-bottom:5px}
+  .stat-item p{font-size:14px;color:#666;margin:0}
+
+  /* 发展历程 */
+  .history{background:#F8FAFC}
+  .timeline{position:relative;max-width:900px;margin:0 auto;padding-left:40px}
+  .timeline::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:#0066CC}
+  .timeline-item{position:relative;margin-bottom:40px;padding-bottom:20px}
+  .timeline-item:last-child{margin-bottom:0}
+  .timeline-dot{position:absolute;left:-49px;top:0;width:16px;height:16px;border-radius:50%;background:#0066CC;border:4px solid #fff}
+  .timeline-date{font-size:18px;font-weight:700;color:#0066CC;margin-bottom:10px}
+  .timeline-title{font-size:18px;font-weight:600;color:#333;margin-bottom:8px}
+  .timeline-desc{font-size:15px;color:#666;line-height:1.7}
+
+  /* 核心优势 */
+  .advantage{background:#fff}
+  .advantage-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+  .advantage-card{padding:30px;border-radius:8px;background:#F8FAFC;transition:.3s;text-align:center}
+  .advantage-card:hover{transform:translateY(-5px);box-shadow:0 8px 20px rgba(0,0,0,.08)}
+  .advantage-icon{font-size:40px;margin-bottom:20px}
+  .advantage-card h3{font-size:20px;margin-bottom:15px;color:#0066CC}
+  .advantage-card p{font-size:14px;color:#666;line-height:1.7}
+
+  /* 核心业务 */
+  .business{background:#F8FAFC}
+  .business-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+  .business-card{background:#fff;padding:35px;border-radius:8px;box-shadow:0 3px 15px rgba(0,0,0,.05);transition:.3s}
+  .business-card:hover{transform:translateY(-5px);box-shadow:0 8px 20px rgba(0,0,0,.08)}
+  .business-icon{font-size:35px;margin-bottom:15px}
+  .business-card h3{font-size:20px;margin-bottom:15px;color:#0066CC}
+  .business-card p{font-size:14px;color:#666;line-height:1.7;margin-bottom:15px}
+  .business-card .btn-outline{padding:6px 15px;font-size:13px}
+
+  /* 内容生态 */
+  .ecology{background:#fff}
+  .ecology-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:30px}
+  .ecology-card{display:flex;gap:20px;padding:30px;border-radius:8px;background:#F8FAFC;transition:.3s}
+  .ecology-card:hover{transform:translateY(-5px);box-shadow:0 8px 20px rgba(0,0,0,.08)}
+  .ecology-icon{font-size:40px;flex-shrink:0}
+  .ecology-content h3{font-size:20px;margin-bottom:10px;color:#0066CC}
+  .ecology-content p{font-size:14px;color:#666;line-height:1.7}
+  .ecology-tag{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+  .ecology-tag span{padding:4px 12px;background:#0066CC;color:#fff;border-radius:20px;font-size:12px}
+
+  /* 艺人孵化体系 */
+  .incubation{background:#F8FAFC}
+  .incubation-step{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;position:relative}
+  .step-item{text-align:center;position:relative;z-index:2}
+  .step-num{width:50px;height:50px;border-radius:50%;background:#0066CC;color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;margin:0 auto 15px}
+  .step-item h4{font-size:16px;margin-bottom:10px;color:#333}
+  .step-item p{font-size:13px;color:#666;line-height:1.6}
+
+  /* 艺人矩阵 - 自动随机无侵权图 */
+  .artist{background:#fff}
+  .artist-tab{display:flex;gap:15px;justify-content:center;margin-bottom:40px;flex-wrap:wrap}
+  .artist-tab span{padding:8px 20px;border-radius:30px;cursor:pointer;transition:.3s;font-size:14px}
+  .artist-tab span.active{background:#0066CC;color:#fff}
+  .artist-tab span:hover{background:#0066CC;color:#fff}
+  .artist-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}
+  .artist-card{background:#F8FAFC;border-radius:12px;overflow:hidden;box-shadow:0 3px 15px rgba(0,0,0,.05);transition:.3s}
+  .artist-card:hover{transform:translateY(-8px);box-shadow:0 12px 30px rgba(0,0,0,.12)}
+  .artist-img{
+    width:100%;
+    height:280px;
+    position:relative;
+    overflow:hidden;
+  }
+  .artist-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+  .artist-card:hover .artist-img img{transform:scale(1.1)}
+  .artist-img::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:40%;
+    background:linear-gradient(to top,rgba(0,102,204,0.8),transparent);
+  }
+  .artist-info{padding:20px}
+  .artist-info h4{font-size:18px;margin-bottom:5px}
+  .artist-tag{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+  .artist-tag span{padding:3px 8px;background:#e8f2fc;color:#0066CC;border-radius:4px;font-size:12px}
+  .artist-fans{font-size:13px;color:#666}
+
+  /* 成功案例 - 自动随机无侵权图 */
+  .case{background:#F8FAFC}
+  .case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+  .case-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 3px 15px rgba(0,0,0,.05);transition:.3s}
+  .case-card:hover{transform:translateY(-8px);box-shadow:0 12px 30px rgba(0,0,0,.12)}
+  .case-img{
+    width:100%;
+    height:220px;
+    position:relative;
+    overflow:hidden;
+  }
+  .case-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+  .case-card:hover .case-img img{transform:scale(1.1)}
+  .case-info{padding:25px}
+  .case-type{font-size:12px;color:#0066CC;font-weight:600;margin-bottom:8px}
+  .case-info h4{font-size:18px;margin-bottom:10px;color:#333}
+  .case-desc{font-size:14px;color:#666;line-height:1.7;margin-bottom:15px}
+  .case-data{display:flex;gap:15px;font-size:13px;color:#666}
+
+  /* 合作品牌 - 仅酷乐米专属展示 */
+  .brand{background:#fff}
+  .brand-show{
+    max-width:800px;
+    margin:0 auto;
+    padding:40px;
+    border-radius:12px;
+    background:#F8FAFC;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+    text-align:center;
+    transition:.3s;
+  }
+  .brand-show:hover{transform:scale(1.02);box-shadow:0 10px 30px rgba(0,0,0,.08)}
+  .brand-logo{
+    width:100%;
+    max-width:400px;
+    height:200px;
+    margin:0 auto 25px;
+    border-radius:8px;
+    overflow:hidden;
+    position:relative;
+    background:linear-gradient(135deg,#0066CC,#004A99);
+  }
+  .brand-logo img{width:100%;height:100%;object-fit:contain}
+  .brand-name{font-size:32px;font-weight:700;color:#333;margin-bottom:15px}
+  .brand-desc{font-size:16px;color:#666;max-width:600px;margin:0 auto 25px;line-height:1.8}
+  .brand-link{display:inline-block;padding:10px 30px;border-radius:4px;background:#0066CC;color:#fff;font-weight:500;transition:.3s}
+  .brand-link:hover{background:#0052A3;transform:translateY(-2px)}
+
+  /* 荣誉资质 - 2026年成立合规版 */
+  .honor{background:#F8FAFC}
+  .honor-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+  .honor-item{background:#fff;padding:30px;border-radius:8px;text-align:center;transition:.3s;box-shadow:0 3px 15px rgba(0,0,0,.05)}
+  .honor-item:hover{transform:scale(1.03);box-shadow:0 5px 15px rgba(0,0,0,.08)}
+  .honor-item h4{font-size:18px;margin-bottom:10px;color:#333}
+  .honor-item p{font-size:14px;color:#666}
+
+  /* 招贤纳士 */
+  .recruit{background:#fff}
+  .recruit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .recruit-card{padding:25px;border-radius:8px;background:#F8FAFC;transition:.3s}
+  .recruit-card:hover{box-shadow:0 5px 15px rgba(0,0,0,.08)}
+  .recruit-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}
+  .recruit-header h4{font-size:18px;color:#333}
+  .recruit-salary{font-size:18px;font-weight:700;color:#0066CC}
+  .recruit-desc{font-size:14px;color:#666;margin-bottom:15px}
+  .recruit-tag{display:flex;gap:10px;flex-wrap:wrap}
+  .recruit-tag span{padding:3px 10px;background:#e8f2fc;color:#0066CC;border-radius:4px;font-size:12px}
+
+  /* 社会责任 */
+  .social{background:#F8FAFC}
+  .social-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+  .social-card{padding:30px;border-radius:8px;background:#fff;box-shadow:0 3px 15px rgba(0,0,0,.05);text-align:center}
+  .social-icon{font-size:40px;margin-bottom:20px}
+  .social-card h3{font-size:20px;margin-bottom:15px;color:#0066CC}
+  .social-card p{font-size:14px;color:#666;line-height:1.7}
+
+  /* 友情链接 */
+  .friend-link{background:#fff;padding:40px 0;border-top:1px solid #eee}
+  .friend-link h3{font-size:18px;margin-bottom:20px;color:#333}
+  .link-list{display:flex;flex-wrap:wrap;gap:20px}
+  .link-list a{font-size:14px;color:#0066CC;transition:.3s}
+  .link-list a:hover{text-decoration:underline}
+
+  /* 联系我们 */
+  .contact{background:#F8FAFC}
+  .contact-wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+  .contact-form{background:#fff;padding:40px;border-radius:8px;box-shadow:0 3px 15px rgba(0,0,0,.05)}
+  .contact-form h3{font-size:22px;margin-bottom:30px;color:#333}
+  .form-group{margin-bottom:20px}
+  .form-group label{display:block;margin-bottom:8px;font-size:14px;color:#333;font-weight:500}
+  .form-group input,.form-group textarea{width:100%;padding:12px;border:1px solid #eee;border-radius:4px;outline:none;transition:.3s}
+  .form-group input:focus,.form-group textarea:focus{border-color:#0066CC}
+  .form-group textarea{height:120px;resize:none}
+  .contact-info{padding:40px 0}
+  .contact-info h3{font-size:22px;margin-bottom:30px;color:#333}
+  .contact-item{display:flex;align-items:center;gap:15px;margin-bottom:25px}
+  .contact-item .icon{font-size:20px;color:#0066CC;width:20px;flex-shrink:0;font-weight:bold}
+  .contact-item div h4{font-size:16px;margin-bottom:5px}
+  .contact-item div p{font-size:14px;color:#666;word-break:break-all}
+
+  /* 底部 */
+  .footer{background:#333;color:#fff;padding:60px 0 30px}
+  .footer-wrap{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+  .footer-logo{font-size:22px;margin-bottom:20px}
+  .footer-desc{font-size:14px;opacity:.8;line-height:1.7}
+  .footer-title{font-size:16px;margin-bottom:20px}
+  .footer-list li{margin-bottom:12px}
+  .footer-list a{font-size:14px;opacity:.8;transition:.3s}
+  .footer-list a:hover{opacity:1;color:#0066CC}
+  .copyright{text-align:center;font-size:13px;opacity:.6;padding-top:30px;border-top:1px solid rgba(255,255,255,.1)}
+
+  /* 响应式适配 - 平板端 */
+  @media(max-width:992px){
+    .section{padding:60px 0}
+    .banner{height:500px}
+    .banner h1{font-size:40px}
+    .about-wrap,.contact-wrap,.ecology-grid,.recruit-grid{grid-template-columns:1fr}
+    .data .container,.business-grid,.case-grid,.social-grid{grid-template-columns:repeat(2,1fr)}
+    .artist-grid,.honor-grid,.advantage-grid{grid-template-columns:repeat(2,1fr)}
+    .footer-wrap{grid-template-columns:repeat(2,1fr)}
+    .incubation-step{grid-template-columns:repeat(3,1fr);gap:30px}
+    .about-img{height:350px}
+    .brand-logo{max-width:300px;height:160px}
+  }
+
+  /* 响应式适配 - 手机端 */
+  @media(max-width:768px){
+    .section{padding:40px 0}
+    .section-title h2{font-size:28px}
+    .banner{height:400px}
+    .banner h1{font-size:32px}
+    .banner p{font-size:16px}
+    .nav-wrap{height:auto;padding:15px 0;gap:10px;justify-content:center}
+    .nav-list{gap:15px;justify-content:center;width:100%}
+    .search-box{width:100%;justify-content:center}
+    .search-box input{width:70%}
+    .data .container,.business-grid,.artist-grid,.case-grid,.honor-grid,.advantage-grid,.social-grid{grid-template-columns:1fr}
+    .incubation-step{grid-template-columns:1fr;gap:20px}
+    .about-stats{grid-template-columns:1fr}
+    .about-img{height:280px}
+    .timeline{padding-left:30px}
+    .timeline-dot{left:-39px}
+    .brand-show{padding:25px}
+    .brand-name{font-size:24px}
+    .brand-logo{max-width:260px;height:140px}
+  }
+
+  /* 超小屏适配 */
+  @media(max-width:375px){
+    .banner h1{font-size:28px}
+    .nav-list{gap:10px}
+    .nav-list a{font-size:14px}
+    .brand-logo{max-width:220px;height:120px}
+  }
 </style>
 </head>
-<body>
-<!-- 顶部 动态本地时间 + 定位天气 -->
-<div class="top-bar">
-    <div class="container">
-        <div id="realTime">正在加载时间...</div>
-        <div id="realWeather">正在获取您的位置与天气...</div>
-    </div>
-</div>
-<!-- 前台官网主体 -->
-<div id="frontend">
-    <!-- 导航栏 -->
-    <header class="header">
-        <div class="container nav">
-            <div class="brand">灏妍时代传媒</div>
-            <ul class="nav-list">
-                <li><a href="#banner">首页</a></li>
-                <li><a href="#about">关于我们</a></li>
-                <li><a href="#service">核心业务</a></li>
-                <li><a href="#case">成功案例</a></li>
-                <li><a href="#news">新闻动态</a></li>
-                <li><a href="#quote">在线留言</a></li>
-                <li><a href="#contact">联系我们</a></li>
-                <li><a href="javascript:;" onclick="showAdmin()">管理后台</a></li>
-            </ul>
-        </div>
-    </header>
-    <!-- 首屏KV -->
-    <section class="banner" id="banner">
-        <div class="banner-content">
-            <h1>未来可期 共创精彩</h1>
-            <p>衡阳灏妍时代互动文化传媒有限公司，专注内容创作与品牌赋能，打造有影响力的传媒内容，助力品牌与达人实现商业价值最大化</p>
-            <div class="banner-btn-group">
-                <a href="#service" class="btn">查看核心业务</a>
-                <a href="#quote" class="btn btn-outline">在线咨询合作</a>
-            </div>
-        </div>
-    </section>
-    <!-- 核心数据板块 -->
-    <section class="data-panel">
-        <div class="container">
-            <div class="data-grid" id="dataList">
-                <div class="data-item fade-in">
-                    <h3 id="data1">200+</h3>
-                    <p>合作品牌客户</p>
-                </div>
-                <div class="data-item fade-in">
-                    <h3 id="data2">500+</h3>
-                    <p>全案服务项目</p>
-                </div>
-                <div class="data-item fade-in">
-                    <h3 id="data3">10亿+</h3>
-                    <p>全网累计播放量</p>
-                </div>
-                <div class="data-item fade-in">
-                    <h3 id="data4">1000+</h3>
-                    <p>签约合作达人</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 关于我们板块 -->
-    <section class="section about" id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>关于灏妍时代</h2>
-                <p>深耕衡阳本土，辐射全国的专业互联网型传媒机构</p>
-            </div>
-            <div class="about-wrap">
-                <div class="about-text fade-in">
-                    <h3>用内容创造价值</h3>
-                    <p>衡阳灏妍时代互动文化传媒有限公司，成立于湖南衡阳，是一家专注于内容创作、红人孵化、品牌服务的综合性传媒机构。公司拥有专业的策划、拍摄、剪辑、运营、设计全流程团队，具备成熟的内容创作与品牌服务体系。</p>
-                    <p>公司立足衡阳，服务湖南，面向全国，业务覆盖短视频与短剧创作、新媒体全平台代运营、品牌全案策划、活动执行、企业宣传片拍摄、直播电商等多个领域，为企业、品牌与达人提供一站式传媒解决方案。</p>
-                    <p>我们坚持「创意为先、品质为本、客户至上」的核心理念，用心打造每一个作品，用专业的内容与服务，助力客户实现品牌价值与商业增长。</p>
-                    <a href="#contact" class="btn">联系我们</a>
-                </div>
-                <div class="about-img fade-in">
-                    <img src="https://picsum.photos/id/1048/800/600" alt="灏妍时代团队">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 核心业务板块 -->
-    <section class="section service" id="service">
-        <div class="container">
-            <div class="section-title">
-                <h2>核心业务</h2>
-                <p>全链条传媒服务，一站式解决品牌与内容需求</p>
-            </div>
-            <div class="service-grid" id="serviceList"></div>
-        </div>
-    </section>
-    <!-- 服务优势板块 -->
-    <section class="section advantage" id="advantage">
-        <div class="container">
-            <div class="section-title">
-                <h2>核心优势</h2>
-                <p>专业团队，全案服务，效果保障</p>
-            </div>
-            <div class="adv-grid">
-                <div class="adv-item fade-in">
-                    <h3>专业创作团队</h3>
-                    <p>资深策划、导演、拍摄、剪辑、运营全流程专业人才，具备丰富的行业实战经验</p>
-                </div>
-                <div class="adv-item fade-in">
-                    <h3>全案定制服务</h3>
-                    <p>从创意策划到落地执行，一站式解决品牌宣传所有需求，定制化匹配客户需求</p>
-                </div>
-                <div class="adv-item fade-in">
-                    <h3>本土资源优势</h3>
-                    <p>深耕衡阳本地市场，熟悉本地渠道、政策与资源环境，更懂本土品牌传播需求</p>
-                </div>
-                <div class="adv-item fade-in">
-                    <h3>数据效果导向</h3>
-                    <p>以数据为核心，以结果为目标，确保每一次投入都有真实的效果回报</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 成功案例板块 -->
-    <section class="section case" id="case">
-        <div class="container">
-            <div class="section-title">
-                <h2>成功案例</h2>
-                <p>上百个真实项目落地，用成果见证专业实力</p>
-            </div>
-            <div class="case-grid" id="caseList"></div>
-        </div>
-    </section>
-    <!-- 新闻动态板块 -->
-    <section class="section news" id="news">
-        <div class="container">
-            <div class="section-title">
-                <h2>新闻动态</h2>
-                <p>关注公司最新资讯与行业前沿动态</p>
-            </div>
-            <div class="news-grid" id="newsList"></div>
-        </div>
-    </section>
-    <!-- 在线留言板块 -->
-    <section class="section quote" id="quote">
-        <div class="container">
-            <div class="section-title">
-                <h2>在线咨询合作</h2>
-                <p>留下您的需求，我们将在1个工作日内与您联系</p>
-            </div>
-            <form class="quote-form" id="msgForm" onsubmit="return submitMsg()">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>您的姓名</label>
-                        <input type="text" class="form-control" id="userName" required placeholder="请输入您的姓名">
-                    </div>
-                    <div class="form-group">
-                        <label>联系电话</label>
-                        <input type="tel" class="form-control" id="userPhone" required placeholder="请输入您的联系电话">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>所属行业</label>
-                        <input type="text" class="form-control" id="userIndustry" placeholder="请输入您的所属行业">
-                    </div>
-                    <div class="form-group">
-                        <label>咨询业务</label>
-                        <select class="form-control" id="userBiz">
-                            <option value="">请选择咨询业务</option>
-                            <option value="短视频&短剧制作">短视频&短剧制作</option>
-                            <option value="新媒体代运营">新媒体全平台代运营</option>
-                            <option value="品牌全案策划">品牌全案策划</option>
-                            <option value="企业宣传片拍摄">企业宣传片拍摄</option>
-                            <option value="活动策划执行">活动策划执行</option>
-                            <option value="直播电商服务">直播电商服务</option>
-                            <option value="其他">其他业务</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>需求描述</label>
-                    <textarea class="form-control" id="userContent" required placeholder="请详细描述您的合作需求"></textarea>
-                </div>
-                <button type="submit" class="btn submit-btn">提交合作咨询</button>
-            </form>
-        </div>
-    </section>
-    <!-- 联系我们板块 -->
-    <section class="section contact" id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>联系我们</h2>
-                <p>欢迎洽谈合作，我们将24小时快速响应</p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <h3>联系电话</h3>
-                    <p><a href="tel:19118712616">19118712616</a></p>
-                </div>
-                <div class="contact-item">
-                    <h3>商务微信</h3>
-                    <p>HaoyanMedia06120409</p>
-                </div>
-                <div class="contact-item">
-                    <h3>公司地址</h3>
-                    <p>湖南省衡阳市衡阳县西渡镇开洪路11号4层403室</p>
-                </div>
-                <div class="contact-item">
-                    <h3>服务时间</h3>
-                    <p>周一至周日 9:00-22:00</p>
-                    <p>全年无休，随时为您服务</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 页脚 -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-top">
-                <div class="footer-brand">
-                    <h3>灏妍时代传媒</h3>
-                    <p>衡阳灏妍时代互动文化传媒有限公司，专注内容创作与品牌赋能，用专业的服务，助力每一位客户实现品牌价值与商业增长。</p>
-                </div>
-                <div class="footer-nav">
-                    <div>
-                        <h4>网站导航</h4>
-                        <ul>
-                            <li><a href="#banner">首页</a></li>
-                            <li><a href="#about">关于我们</a></li>
-                            <li><a href="#service">核心业务</a></li>
-                            <li><a href="#case">成功案例</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>服务支持</h4>
-                        <ul>
-                            <li><a href="#news">新闻动态</a></li>
-                            <li><a href="#quote">在线咨询</a></li>
-                            <li><a href="#contact">联系我们</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                © 2026 
-                衡阳灏妍时代互动文化传媒有限公司版权所有
-            </div>
-        </div>
-    </footer>
-</div>
-<!-- 在线客服悬浮窗 -->
-<div class="online-service">
-    <div class="service-btn" onclick="toggleService()">在线<br>客服</div>
-    <div class="service-window" id="serviceWindow">
-        <div class="service-header">
-            灏妍时代官方客服
-            <span class="service-close" onclick="closeService()">×</span>
-        </div>
-        <div class="service-body">
-            <p> 咨询热线：<a href="tel:19118712616">19118712616</a></p>
-            <p> 商务微信：HaoyanMedia06120409</p>
-            <p> 服务时间：9:00-22:00</p>
-            <p>如需合作咨询，可直接留言，我们将尽快与您联系。</p>
-        </div>
-    </div>
-</div>
-<!-- 管理后台 -->
-<div id="admin">
-    <div class="admin-header">
-        <div class="container admin-nav">
-            <div class="admin-title">灏妍时代传媒 - 管理后台</div>
-            <button class="logout-btn" onclick="logout()">退出后台</button>
-        </div>
-    </div>
-    <div class="admin-body">
-        <ul class="admin-sidebar sidebar-menu">
-            <li onclick="showPanel('data')">核心数据管理</li>
-            <li onclick="showPanel('msg')">留言咨询管理</li>
-            <li onclick="showPanel('service')">业务内容管理</li>
-            <li onclick="showPanel('case')">案例内容管理</li>
-            <li onclick="showPanel('news')">新闻内容管理</li>
-            <li onclick="showPanel('user')">管理员管理</li>
-        </ul>
-        <div class="admin-content">
-            <!-- 核心数据管理 -->
-            <div id="data" class="admin-panel">
-                <h3 class="panel-title">核心数据管理</h3>
-                <div class="stats-grid">
-                    <div class="stats-item">
-                        <h4>合作品牌客户</h4>
-                        <p id="statsData1">200+</p>
-                    </div>
-                    <div class="stats-item">
-                        <h4>全案服务项目</h4>
-                        <p id="statsData2">500+</p>
-                    </div>
-                    <div class="stats-item">
-                        <h4>全网累计播放量</h4>
-                        <p id="statsData3">10亿+</p>
-                    </div>
-                    <div class="stats-item">
-                        <h4>签约合作达人</h4>
-                        <p id="statsData4">1000+</p>
-                    </div>
-                </div>
-                <button class="add-btn" onclick="showDataForm()">修改核心数据</button>
-                <div id="dataForm" class="form-modal" style="display: none;"></div>
-            </div>
-            <!-- 留言咨询管理 -->
-            <div id="msg" class="admin-panel">
-                <h3 class="panel-title">留言咨询管理</h3>
-                <div class="stats-grid">
-                    <div class="stats-item">
-                        <h4>总留言数</h4>
-                        <p id="msgTotal">0</p>
-                    </div>
-                    <div class="stats-item">
-                        <h4>今日新增留言</h4>
-                        <p id="msgToday">0</p>
-                    </div>
-                </div>
-                <button class="add-btn" onclick="clearAllMsg()">一键清空所有留言</button>
-                <table class="admin-table" id="msgTable">
-                    <tr>
-                        <th>序号</th>
-                        <th>姓名</th>
-                        <th>电话</th>
-                        <th>行业</th>
-                        <th>咨询业务</th>
-                        <th>需求描述</th>
-                        <th>提交时间</th>
-                        <th>操作</th>
-                    </tr>
-                </table>
-            </div>
-            <!-- 业务内容管理 -->
-            <div id="service" class="admin-panel">
-                <h3 class="panel-title">业务内容管理</h3>
-                <div class="stats-grid">
-                    <div class="stats-item">
-                        <h4>已上线业务总数</h4>
-                        <p id="serviceTotal">0</p>
-                    </div>
-                </div>
-                <button class="add-btn" onclick="showServiceForm()">新增业务内容</button>
 
+<body>
+<!-- 顶部实时时间栏 -->
+<div class="top-bar">
+  <div class="container">
+    <span>欢迎访问衡阳灏妍时代互动文化传媒有限公司官网</span>
+    <span id="realTime"></span>
+  </div>
+</div>
+
+<!-- 导航栏 -->
+<header class="header">
+  <div class="container nav-wrap">
+    <div class="logo">灏妍时代互动文化传媒</div>
+    <ul class="nav-list">
+      <li><a href="#home">首页</a></li>
+      <li><a href="#about">关于我们</a></li>
+      <li><a href="#business">核心业务</a></li>
+      <li><a href="#artist">艺人矩阵</a></li>
+      <li><a href="#case">成功案例</a></li>
+      <li><a href="#brand">合作品牌</a></li>
+      <li><a href="#contact">联系我们</a></li>
+      <li><a href="#recruit">招贤纳士</a></li>
+    </ul>
+    <div class="search-box">
+      <input type="text" placeholder="搜索业务/艺人/案例" id="searchInput">
+      <button onclick="doSearch()">搜索</button>
+    </div>
+  </div>
+</header>
+
+<!-- Banner首页 - 自动随机无侵权图 -->
+<section class="banner" id="home">
+  <div class="banner-content">
+    <h1>创意赋能品牌 · 互动连接未来</h1>
+    <p>2026年新锐区域头部MCN机构 | 内容创作+品牌营销+艺人经纪+活动执行 全链路一体化服务</p>
+    <div class="banner-btn-group">
+      <a href="#contact" class="btn btn-primary">商务合作</a>
+      <a href="#about" class="btn btn-outline">了解我们</a>
+    </div>
+  </div>
+</section>
+
+<!-- 核心数据板块 - 2026年2月成立合规版 -->
+<section class="data">
+  <div class="container">
+    <div class="item">
+      <h3>30+</h3>
+      <p>合作品牌</p>
+    </div>
+    <div class="item">
+      <h3>50+</h3>
+      <p>落地项目</p>
+    </div>
+    <div class="item">
+      <h3>1亿+</h3>
+      <p>全网曝光</p>
+    </div>
+    <div class="item">
+      <h3>20+</h3>
+      <p>专业团队</p>
+    </div>
+  </div>
+</section>
+
+<!-- 关于我们板块（完整指定简介一字不差保留） -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="section-title">
+      <h2>关于我们</h2>
+      <p>2026年新锐互联网型经纪公司，打造区域极具影响力的传媒品牌</p>
+    </div>
+    <div class="about-wrap">
+      <div class="about-img">
+        <img 
+          src="https://picsum.photos/800/600?random=10" 
+          alt="灏妍时代办公环境" 
+          loading="lazy"
+          onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#0066CC,#004A99)';"
+        >
+      </div>
+      <div class="about-content">
+        <h3>专业互动传媒机构 · 全链条服务提供商</h3>
+        <p>衡阳灏妍时代互动文化传媒有限公司是一家深耕于互动传媒与艺人经纪领域的专业机构，依托全域传播与内容生态，构建“内容创作+品牌营销+艺人经纪+活动执行”的一体化服务体系。</p>
+        <p>公司以“创意赋能品牌，互动连接未来”为核心宗旨，聚焦新媒体内容运营、品牌全案策划、影视短剧制作、广告设计发布、演出经纪与活动组织策划等核心业务，为客户提供精准高效的整合营销解决方案，为艺人提供从发掘培养、商务对接、宣传推广到权益维护的全生命周期经纪服务，致力于成为区域内极具影响力的互动传媒品牌。</p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <h4>2026年</h4>
+            <p>公司正式成立</p>
+          </div>
+          <div class="stat-item">
+            <h4>全域</h4>
+            <p>平台资源覆盖</p>
+          </div>
+          <div class="stat-item">
+            <h4>全案</h4>
+            <p>一体化服务</p>
+          </div>
+        </div>
+        <a href="#history" class="btn btn-primary">发展历程</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 发展历程 -->
+<section class="section history" id="history">
+  <div class="container">
+    <div class="section-title">
+      <h2>发展历程</h2>
+      <p>步履不停，初心不改，见证我们的每一步成长</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2026年02月</div>
+        <div class="timeline-title">衡阳灏妍时代互动文化传媒有限公司正式注册成立</div>
+        <div class="timeline-desc">公司落地湖南衡阳，确立“内容创作+品牌营销+艺人经纪+活动执行”四大核心业务板块，正式开启区域传媒市场布局。</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2026年03月</div>
+        <div class="timeline-title">签约首批20+优质达人，搭建艺人孵化体系</div>
+        <div class="timeline-desc">完成首批优质达人签约，覆盖时尚、剧情、美食、知识等多垂类，搭建从素人孵化到商业变现的全流程艺人服务体系。</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2026年04月</div>
+        <div class="timeline-title">完成首个品牌全案营销项目，实现千万级曝光</div>
+        <div class="timeline-desc">为本地知名品牌提供从内容策划、达人投放、活动执行到效果复盘的全案营销服务，项目全网曝光超1200万，获得客户高度认可。</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2026年05月</div>
+        <div class="timeline-title">落地本地大型商业活动，拓展线下服务能力</div>
+        <div class="timeline-desc">独立策划执行衡阳本地大型商业品牌发布会，完成从线上内容到线下活动的全链路服务闭环，团队线下执行能力实现跨越式提升。</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">未来可期</div>
+        <div class="timeline-title">深耕区域市场，打造湖南头部互动传媒品牌</div>
+        <div class="timeline-desc">持续深化内容创作能力、艺人孵化能力与品牌服务能力，深耕湖南市场，逐步辐射全国，致力于成为国内极具影响力的新锐互动传媒机构。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 核心优势 -->
+<section class="section advantage" id="advantage">
+  <div class="container">
+    <div class="section-title">
+      <h2>核心优势</h2>
+      <p>四大核心优势，为品牌与艺人保驾护航</p>
+    </div>
+    <div class="advantage-grid">
+      <div class="advantage-card">
+        <div class="advantage-icon">📈</div>
+        <h3>全域资源覆盖</h3>
+        <p>深度合作抖音、快手、视频号、小红书、公众号等全平台，拥有海量达人资源与流量渠道，实现品牌内容全域曝光。</p>
+      </div>
+      <div class="advantage-card">
+        <div class="advantage-icon">💡</div>
+        <h3>全案定制能力</h3>
+        <p>从品牌定位、内容策划、创意制作，到投放执行、效果复盘，提供一站式定制化全案营销服务，精准匹配品牌需求。</p>
+      </div>
+      <div class="advantage-card">
+        <div class="advantage-icon">⭐</div>
+        <h3>专业孵化体系</h3>
+        <p>拥有成熟的艺人孵化体系，为签约达人提供内容创作指导、账号运营、商业变现、法务维权等全生命周期陪伴式服务。</p>
+      </div>
+      <div class="advantage-card">
+        <div class="advantage-icon">🤝</div>
+        <h3>全链路服务保障</h3>
+        <p>20+专业团队成员，覆盖策划、拍摄、剪辑、运营、商务、法务等全岗位，为品牌与艺人提供7×24小时全链路服务保障。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 核心业务 -->
+<section class="section business" id="business">
+  <div class="container">
+    <div class="section-title">
+      <h2>核心业务</h2>
+      <p>一站式文化传媒全链条服务，满足企业与个人多元化需求</p>
+    </div>
+    <div class="business-grid">
+      <div class="business-card">
+        <div class="business-icon">📱</div>
+        <h3>新媒体内容运营</h3>
+        <p>抖音、快手、视频号、小红书、公众号全平台矩阵代运营，提供内容策划、脚本撰写、拍摄剪辑、账号运营、流量变现一站式服务。</p>
+        <a href="#contact" class="btn btn-outline">了解详情</a>
+      </div>
+      <div class="business-card">
+        <div class="business-icon">🏷️</div>
+        <h3>品牌全案营销</h3>
+        <p>企业品牌定位、VI视觉设计、营销策略制定、全媒体推广、市场落地执行、口碑塑造、品牌升级、数字化营销全案定制服务。</p>
+        <a href="#contact" class="btn btn-outline">了解详情</a>
+      </div>
+      <div class="business-card">
+        <div class="business-icon">🎬</div>
+        <h3>影视短剧制作</h3>
+        <p>网络微短剧、企业宣传片、产品广告片、剧情短视频、MV拍摄、纪录片制作，从剧本创作、拍摄执行到后期剪辑全流程服务。</p>
+        <a href="#contact" class="btn btn-outline">了解详情</a>
+      </div>
+      <div class="business-card">
+        <div class="business-icon">👤</div>
+        <h3>艺人经纪服务</h3>
+        <p>艺人孵化、包装打造、商务合作对接、商演活动、直播代言、影视通告、全网宣传推广、艺人权益维护、网红达人全周期运营。</p>
+        <a href="#contact" class="btn btn-outline">了解详情</a>
+      </div>
+      <div class="business-card">
+        <div class="business-icon">🎉</div>
+        <h3>活动策划执行</h3>
+        <p>企业年会、开业庆典、品牌发布会、展会活动、探店直播、政企活动、文艺演出、赛事活动、网红打卡活动全流程策划与落地执行。</p>
+        <a href="#contact" class="btn btn-outline">了解详情</a>
+      </div>
+      <div class="business-card">
+        <div class="business-icon">🖨️</div>
+        <h3>广告设计发布</h3>
+        <p>LOGO设计、VI视觉系统、海报画册、包装设计、H5制作、短视频广告、信息流广告、户外广告、全媒体广告投放与效果监测服务。</p>
+        <a href="#contact" class="btn btn-outline">了解详情</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 内容生态 -->
+<section class="section ecology" id="ecology">
+  <div class="container">
+    <div class="section-title">
+      <h2>内容生态</h2>
+      <p>以内容为核心，构建人的IP、内容IP、商品IP三位一体的全域内容生态</p>
+    </div>
+    <div class="ecology-grid">
+      <div class="ecology-card">
+        <div class="ecology-icon">👤</div>
+        <div class="ecology-content">
+          <h3>人的IP · 达人孵化生态</h3>
+          <p>以达人为核心，通过专业的内容策划、运营指导、商业赋能，帮助达人打造个人IP，实现从素人到垂类头部达人的成长跨越，构建多元化的达人矩阵生态。</p>
+          <div class="ecology-tag">
+            <span>时尚美妆</span>
+            <span>剧情搞笑</span>
+            <span>美食探店</span>
+            <span>知识科普</span>
+            <span>本地生活</span>
+          </div>
+        </div>
+      </div>
+      <div class="ecology-card">
+        <div class="ecology-icon">🎬</div>
+        <div class="ecology-content">
+          <h3>内容IP · 精品内容生态</h3>
+          <p>以优质内容为根基，打造精品短视频、网络微短剧、品牌定制内容等多元化内容IP，建立标准化内容生产流程，持续输出有价值、有传播力的优质内容。</p>
+          <div class="ecology-tag">
+            <span>短视频内容</span>
+            <span>微短剧IP</span>
+            <span>品牌定制内容</span>
+            <span>纪录片制作</span>
+            <span>创意广告</span>
+          </div>
+        </div>
+      </div>
+      <div class="ecology-card">
+        <div class="ecology-icon">🛒</div>
+        <div class="ecology-content">
+          <h3>商品IP · 直播电商生态</h3>
+          <p>以直播电商为抓手，打通“达人+品牌+供应链”全链路，为品牌提供直播带货、店铺代运营、品效合一的电商营销服务，助力品牌实现销量与口碑双增长。</p>
+          <div class="ecology-tag">
+            <span>全品类直播</span>
+            <span>店铺代运营</span>
+            <span>品牌专场</span>
+            <span>供应链整合</span>
+            <span>电商培训</span>
+          </div>
+        </div>
+      </div>
+      <div class="ecology-card">
+        <div class="ecology-icon">📣</div>
+        <div class="ecology-content">
+          <h3>品牌IP · 整合营销生态</h3>
+          <p>以品牌需求为导向，通过内容营销、达人投放、活动执行、公关传播等多元化手段，为品牌提供全案整合营销服务，助力品牌打造差异化品牌IP，提升市场影响力。</p>
+          <div class="ecology-tag">
+            <span>品牌全案营销</span>
+            <span>达人整合投放</span>
+            <span>线下活动执行</span>
+            <span>口碑舆情管理</span>
+            <span>新媒体公关</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</部分>
+
+<!-- 艺人孵化体系 -->
+<部分 班级="section incubation" 身份标识="incubation">
+  <div 班级="容器">
+    <div 班级="节标题">
+      <H2>艺人孵化体系</H2>
+      <p>全流程陪伴式孵化，助力每一个梦想发光</p>
+    </div>
+    <div 班级="incubation-step">
+      <div 班级="step-item">
+        <div 班级="step-num">1</div>
+        <H4>达人招募筛选</H4>
+        <p>多渠道招募，专业团队综合评估，挖掘有潜力、有特色的素人达人</p>
+      </div>
+      <div 班级="step-item">
+        <div 班级="step-num">2</div>
+        <H4>账号定位规划</H4>
+        <p>结合达人特色与市场需求，定制专属账号定位与长期发展规划</p>
+      </div>
+      <div 班级="step-item">
+        <div 班级="step-num">3</div>
+        <H4>内容创作赋能</H4>
+        <p>专业编导团队提供脚本策划、拍摄剪辑指导，助力达人产出优质内容</p>
+      </div>
+      <div 班级="step-item">
+        <div 班级="step-num">4</div>
+        <H4>流量运营扶持</H4>
+        <p>全平台流量扶持，运营团队全程跟进账号数据，优化运营策略</p>
+      </div>
+      <div 班级="step-item">
+        <div 班级="step-num">5</div>
+        <H4>商业变现闭环</H4>
+        <p>丰富的品牌商务资源，全品类电商供应链，助力达人实现多元化商业变现</p>
+      </div>
+    </div>
+  </div>
+</部分>
+
+<!-- 艺人矩阵 - 自动随机无侵权图 -->
+<部分 班级="section artist" 身份标识="artist">
+  <div 班级="容器">
+    <div 班级="节标题">
+      <H2>艺人矩阵</H2>
+      <p>汇聚众多达人主播、网红红人，打造多元化艺人服务平台</p>
+    </div>
+    <div 班级="artist-tab">
+      <跨度 班级="active">全部达人</跨度>
+      <跨度>时尚美妆</跨度>
+      <跨度>剧情搞笑</跨度>
+      <跨度>美食探店</跨度>
+      <跨度>知识科普</跨度>
+      <跨度>本地生活</跨度>
+    </div>
+    <div 班级="artist-grid">
+      <div 班级="artist-card">
+        <div 班级="artist-img">
+          <IMG 
+            src="https://picsum.photos/400/400?random=30" 
+            alt="衡阳小表妹" 
+            loading="lazy"
+            onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#0066CC,#66a3ff)';"
+          >
+        </div>
+        <div 班级="artist-info">
+          <H4>衡阳小表妹</H4>
+          <div 班级="artist-tag">
+            <跨度>本地生活</跨度>
+            <跨度>美食探店</跨度>
+          </div>
+          <p 班级="artist-fans">全平台粉丝120W+</p>
+        </div>
+      </div>
+      <div 班级="artist-card">
+        <div 班级="artist-img">
+          <IMG 
+            src="https://picsum.photos/400/400?random=31" 
+            alt="阿泽剧情社" 
+            loading="lazy"
+            onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#0066CC,#66a3ff)';"
+          >
+        </div>
+        <div 班级="艺术家信息"迪
+          <H4>阿泽剧情社</H4>
+          <div 班级="艺术家标签">
+            <跨度>剧情搞笑</跨度>
+            <跨度>情感短剧</跨度>
+          </div>
+          <p 班级="艺术家-粉丝">全平台粉丝260W+</p>
+</div>
+      </div>
+      <div 班级="艺术家卡片""艺术家卡片"
+        <div 班级="artist-img">
+          <IMG 
+            src="https://picsum.photos/400/400?random=32" 
+            alt="文文的美妆日记" 
+            装载="懒惰"
+            onError="这个。风格。display='none'；this.parentElement。风格。背景='线性梯度(135度，#0066CC，#66a3ff)'；"
+          >
+</div>
+        <div 班级="艺术家信息""艺术家信息"
+          <H4>文文的美妆日记</H4>
+          <div 班级="艺术家标签""艺术家标签"
+            <跨度>时尚美妆</跨度>
+            <跨度>好物分享</跨度>
+          </div>
+          <p 班级="艺术家-粉丝""艺术家-粉丝"全平台粉丝180W+</p>
+</div>
+      </div>
+      <div 班级="艺术家卡片""艺术家卡片"
+        <div 班级="artist-img">
+          <IMG 
+            src="https://picsum.photos/400/400?random=33" 
+            alt="老周商业说" 
+            装载="懒惰"
+            onError="这个。风格。display='none'；this.parentElement。风格。背景='线性梯度(135度，#0066CC，#66a3ff)'；"
+          >
+</div>
+        <div 班级="艺术家信息""艺术家信息"
+          <H4>老周商业说</H4>
+          <div 班级="艺术家标签""艺术家标签"
+            <跨度>知识科普</跨度>
+            <跨度>商业思维</跨度>
+          </div>
+          <p 班级="艺术家-粉丝""艺术家-粉丝"全平台粉丝90W+</p>
+</div>
+      </div>
+    </div>
+  </div>
+</部分>
+
+<! -- 成功案例 - 自动随机无侵权图 -->
+<部分 班级="分段大小写" 身份标识="案例">
+  <div 班级="容器">
+    <div 班级="节标题">
+      <H2>成功案例</H2>
+      <p>用专业与实力，见证每一次品效合一</p>
+    </div>
+    <div 班级="case-grid">
+      <div 班级="case-card">
+        <div 班级="case-img">
+          <IMG 
+            src="https://picsum.photos/600/400?random=40" 
+            alt="商业广场开业全案营销" 
+            装载="懒惰"
+            onError="这个。风格。display='none'；this.parentElement。风格。背景='线性梯度(135度，#0066CC，#004A99)'；"
+          >
+</div>
+        <div 班级="case-info""case-info"
+          迪迪
